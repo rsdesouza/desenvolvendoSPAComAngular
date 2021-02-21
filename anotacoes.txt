@@ -1,0 +1,11 @@
+--back-end usando json-server
+npm i json-server
+
+--iniciar 
+json-server --watch db.json --port 3000
+
+--lib para analise de updates
+--1-excluir pasta node
+--2-executar ncu para analisar
+--3-executar ncu -u para atualizar
+npm i npm-check-updates
